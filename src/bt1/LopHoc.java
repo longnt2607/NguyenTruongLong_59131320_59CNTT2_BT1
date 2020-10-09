@@ -31,5 +31,13 @@ public class LopHoc {
     public void inDSGVGD() {
         dsGV.inDS();
     }
+    
+    public void xoaHS(String ten) {
+        dsHocSinh.xoa(ten);
+    }
+    
+    public void xoaGV(String ten) {
+        dsGV.xoa(ten);
+    }
 
 }

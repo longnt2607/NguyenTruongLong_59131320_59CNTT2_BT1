@@ -15,6 +15,9 @@ public class QuanLyDanhSach implements IQuanLyDanhSach{
     
     ArrayList<CaNhan> list = new ArrayList<>();
 
+    public QuanLyDanhSach() {
+    }
+
     @Override
     public void them(CaNhan p) {
         list.add(p);
@@ -23,7 +26,7 @@ public class QuanLyDanhSach implements IQuanLyDanhSach{
     @Override
     public void xoa(String ten) {
         for (CaNhan x : list) {
-            if (x.getHoTen() == ten) {
+            if (x.getHoTen().equals(ten)) {
                 list.remove(ten);
             }
         }
