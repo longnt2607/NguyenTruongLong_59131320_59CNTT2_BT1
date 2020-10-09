@@ -13,9 +13,10 @@ import java.util.ArrayList;
  */
 public class QuanLyDanhSach implements IQuanLyDanhSach{
     
-    ArrayList<CaNhan> list = new ArrayList<>();
+    ArrayList<CaNhan> list;
 
     public QuanLyDanhSach() {
+        list = new ArrayList<>();
     }
 
     @Override

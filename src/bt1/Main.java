@@ -40,13 +40,13 @@ public class Main {
         System.out.println("========== Danh sach giao vien ==========");
         lopHoc.inDSGVGD();
 
-        lopHoc.xoaHS("Tran Ngoc C");
-        lopHoc.xoaGV("Bui Thi E");
-        
-        System.out.println("========== Danh sach hoc sinh ==========");
-        lopHoc.inDSHS();
-        System.out.println("========== Danh sach giao vien ==========");
-        lopHoc.inDSGVGD();
+//        lopHoc.xoaHS("Tran Ngoc C");
+//        lopHoc.xoaGV("Bui Thi E");
+//        
+//        System.out.println("========== Danh sach hoc sinh ==========");
+//        lopHoc.inDSHS();
+//        System.out.println("========== Danh sach giao vien ==========");
+//        lopHoc.inDSGVGD();
     }
     
 }
