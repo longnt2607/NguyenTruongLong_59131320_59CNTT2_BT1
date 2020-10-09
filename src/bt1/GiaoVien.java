@@ -20,9 +20,11 @@ public class GiaoVien extends CaNhan{
     }
     
     @Override
-    public void HienThiTT() {
-        super.HienThiTT();
-        System.out.println("Mon giang day   : " + monDay);
-        System.out.println("To bo mon       : " + toBoMon + "\n");
+    public String HienThiTT() {
+        StringBuilder builder = new StringBuilder();
+        builder.append(super.HienThiTT())
+                .append("Mon giang day: ").append(monDay)
+                .append("To bo mon: ").append(toBoMon);
+        return builder.toString();
     }
 }

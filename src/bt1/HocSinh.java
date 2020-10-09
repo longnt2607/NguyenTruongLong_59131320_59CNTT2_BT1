@@ -20,9 +20,10 @@ public class HocSinh extends CaNhan{
     }
     
     @Override
-    public void HienThiTT() {
+    public String HienThiTT() {
         super.HienThiTT();
         System.out.println("Lop             : " + lop);
         System.out.println("Nang khieu      : " + nangKhieu + "\n");
+        return "";
     }
 }

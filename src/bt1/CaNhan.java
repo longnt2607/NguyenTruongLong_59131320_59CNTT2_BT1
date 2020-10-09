@@ -57,11 +57,18 @@ public abstract class CaNhan {
     }
     
     
-    public void HienThiTT() {
-        System.out.println("----- Thong tin ca nhan -----");
-        System.out.println("Ho va ten       : " + hoTen);
-        System.out.println("Tuoi            : " + tuoi);
-        System.out.println("Dia chi         : " + diaChi);
-        System.out.println("So dien thoai   : " + sdt);
+    public String HienThiTT() {
+//        System.out.println("----- Thong tin ca nhan -----");
+//        System.out.println("Ho va ten       : " + hoTen);
+//        System.out.println("Tuoi            : " + tuoi);
+//        System.out.println("Dia chi         : " + diaChi);
+//        System.out.println("So dien thoai   : " + sdt);
+        StringBuilder builder = new StringBuilder();
+        builder.append("Ho va ten: ").append(this.getHoTen())
+                .append("Tuoi: ").append(this.getTuoi())
+                .append("Dia chi: ").append(this.getDiaChi())
+                .append("SDT: ").append(this.getSdt());
+        
+        return builder.toString();
     }
 }
