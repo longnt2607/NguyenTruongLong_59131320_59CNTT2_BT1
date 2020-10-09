@@ -36,7 +36,7 @@ public class QuanLyDanhSach implements IQuanLyDanhSach{
     @Override
     public void inDS() {
         for (CaNhan x : list) {
-            x.HienThiTT();
+            System.out.println(x.HienThiTT());
         }
     }
 }

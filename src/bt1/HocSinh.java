@@ -23,8 +23,8 @@ public class HocSinh extends CaNhan{
     public String HienThiTT() {
         StringBuilder builder = new StringBuilder();
         builder.append(super.HienThiTT())
-                .append("Lop: ").append(lop)
-                .append("Nang khieu: ").append(nangKhieu);
+                .append("Lop: ").append(lop).append("\n")
+                .append("Nang khieu: ").append(nangKhieu).append("\n");
         return builder.toString();
     }
 }

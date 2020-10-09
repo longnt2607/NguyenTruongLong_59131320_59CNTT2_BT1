@@ -64,10 +64,10 @@ public abstract class CaNhan {
 //        System.out.println("Dia chi         : " + diaChi);
 //        System.out.println("So dien thoai   : " + sdt);
         StringBuilder builder = new StringBuilder();
-        builder.append("Ho va ten: ").append(this.getHoTen())
-                .append("Tuoi: ").append(this.getTuoi())
-                .append("Dia chi: ").append(this.getDiaChi())
-                .append("SDT: ").append(this.getSdt());
+        builder.append("Ho va ten: ").append(this.getHoTen()).append("\n")
+                .append("Tuoi: ").append(this.getTuoi()).append("\n")
+                .append("Dia chi: ").append(this.getDiaChi()).append("\n")
+                .append("SDT: ").append(this.getSdt()).append("\n");
         
         return builder.toString();
     }

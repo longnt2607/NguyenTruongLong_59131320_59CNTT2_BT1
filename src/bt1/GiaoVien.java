@@ -23,8 +23,8 @@ public class GiaoVien extends CaNhan{
     public String HienThiTT() {
         StringBuilder builder = new StringBuilder();
         builder.append(super.HienThiTT())
-                .append("Mon giang day: ").append(monDay)
-                .append("To bo mon: ").append(toBoMon);
+                .append("Mon giang day: ").append(monDay).append("\n")
+                .append("To bo mon: ").append(toBoMon).append("\n");
         return builder.toString();
     }
 }
