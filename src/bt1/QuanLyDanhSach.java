@@ -22,7 +22,11 @@ public class QuanLyDanhSach implements IQuanLyDanhSach{
 
     @Override
     public void xoa(String ten) {
-        list.remove(ten);
+        for (CaNhan x : list) {
+            if (x.getHoTen() == ten) {
+                list.remove(ten);
+            }
+        }
     }
 
     @Override
