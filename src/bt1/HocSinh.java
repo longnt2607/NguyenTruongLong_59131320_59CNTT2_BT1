@@ -21,9 +21,10 @@ public class HocSinh extends CaNhan{
     
     @Override
     public String HienThiTT() {
-        super.HienThiTT();
-        System.out.println("Lop             : " + lop);
-        System.out.println("Nang khieu      : " + nangKhieu + "\n");
-        return "";
+        StringBuilder builder = new StringBuilder();
+        builder.append(super.HienThiTT())
+                .append("Lop: ").append(lop)
+                .append("Nang khieu: ").append(nangKhieu);
+        return builder.toString();
     }
 }
